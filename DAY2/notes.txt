@@ -1,0 +1,24 @@
+Time Complexity 
+Time complexity is the amount of time taken by an algorithm to run, as a function of the length of the input.
+
+Space Complexity
+Space complexity is the amount of memory used by the algorithm to execute.
+
+Asymptotic Notations
+Asymptotic notation describes the algorithm's efficiency and performance in a meaningful way.
+
+Types of Asymptotic notations:-
+Big O (O):-
+Used to denote Worst case complexity.
+Big Omega (Ω):-
+Used to denote best-case complexity.
+Theta (Θ):-
+Used to denote average-case complexity.
+
+
+Various Time Complexities
+Constant Time Complexity:-  O(1)
+Linear Time Complexity:- O(n)
+Quadratic Time Complexity:- O(n^2)
+Logarithmic Time Complexity:- O(log base2 n)
+Exponential Time Complexity:- O(2^n)

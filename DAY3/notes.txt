@@ -1,0 +1,37 @@
+Function
+
+A function in Python is an aggregation of related statements designed to perform a computational, logical, or evaluative task.
+A function is defined by using the def keyword.
+def my_function():
+  print("Hello LetsUpgrader’s")
+  
+  
+Classes and Methods
+A class is like a blueprint for creating objects.
+A class has attributes as well as methods for objects.
+A class is defined by the keyword class.
+An object is created using the constructor of the class.
+
+
+ __init__() function
+It is a built-in function present in every class and it gets called when a class is being initiated.
+Various initial properties of the object can be defined by the use of this function.
+class Person:
+  def __init__(self, name):
+    self.name = name
+  def myfunc(self):
+    print("Hello my name is " + self.name)
+p1 = Person("Letsupgrade")
+p1.myfunc()
+
+
+Linked list 
+
+Collection of nodes in which each node stores a data and has a link or reference to the next node.
+
+Example of a node:-
+
+class Node:
+    def __init__(self, dataval=None):
+        self.dataval = dataval
+        self.nextval = None
